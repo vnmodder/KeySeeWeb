@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --body-spacing: 2rem;
+  --screen-title-font-size: 1.3rem;
+  --button-font-size: 1rem;
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
+  --font-weight-bolder: 900;
+
+  --btn-font-size: 1.15rem;
+  --gap-btw-btn: 0 1.05rem;
+  --btn-border-radius: 0.3rem;
+
+  --margin-vertical-btw-component: 1rem;
+}
+
+* {
+  font-family: 'Noto Sans JP', 'MS UI Gothic', sans-serif;
+  letter-spacing: 0.07rem;
+  font-size: 9.5pt;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(155, 147, 147);
+  border-radius: 5px;
+}
+
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+.screen-title {
+  padding: 1rem 0;
+}
+
+.screen-title h1,
+.screen-title h2,
+.screen-title h3,
+.screen-title h4,
+.screen-title h5,
+.screen-title h6,
+.screen-title p,
+.screen-title span {
+  margin: 0;
+  font-weight: bold;
+  font-size: var(--screen-title-font-size);
+}
+.screen-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-container {
+  padding: 0 var(--body-spacing);
+}
+
+.keysee-button {
+  font-size: var(--btn-font-size);
+  border-radius: var(--btn-border-radius);
+}
+
+.MuiFormControl-root .MuiFormLabel-root{
+  font-weight: bold;
+  font-size: 1.1rem;
+}

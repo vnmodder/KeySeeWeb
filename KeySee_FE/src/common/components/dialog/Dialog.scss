@@ -1,0 +1,79 @@
+.dialog {
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+
+  .dialogTitle {
+    :first-child {
+      font-size: 1.3rem !important;
+    }
+
+    user-select: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: 'space-between';
+    align-items: 'center';
+
+    .title {
+      margin-right: auto;
+      padding-right: 1rem;
+    }
+  }
+
+  .dialogContent {
+    width: fit-content;
+    font-size: 1.2rem !important;
+  }
+
+  .dialogAction {
+    padding: 0.75rem 0.75rem;
+    align-items: center;
+  }
+
+  .dialogBtn {
+    padding: 0.2rem 1.25rem 0.1rem 1.25rem;
+    font-size: 1rem;
+  }
+}
+
+.item-center-v {
+  align-items: center;
+  display: flex;
+}
+
+.error {
+  background-color: #e84757;
+}
+
+.question {
+  background-color: Khaki;
+}
+
+.validation {
+  background-color: Khaki;
+}
+
+.information {
+  background-color: #34c0e3;
+}
+
+.other {
+  background-color: Khaki;
+}
+
+.unhandled {
+  background-color: #e84757;
+}
+
+.dialog-content-padding {
+  padding: 0.3rem 1rem !important;
+}
+
+.loading-dialog-content-padding {
+  padding: 1.2rem 4rem !important;
+}
+
+.dialog-content-display-format {
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+}

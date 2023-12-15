@@ -1,0 +1,15 @@
+export const THEME_COLOR = {
+  ERROR: '#dc3545',
+  PRIMARY: '#0078E0',
+  WHITE: '#e9ecef',
+  GREY: '#ADAFB1',
+  WARNING: '#FFB300',
+  BORDER_GREY: '#6C757D',
+  FOCUS_GREY: '#8B9399',
+  SILVER: 'silver',
+  FIRST_GROUP_ROW: 'white',
+  SECOND_GROUP_ROW: '#81C34C',
+  RED: '#FF0000',
+  BLACK: '#000000',
+  SELECTION: '#2E72B8'
+}

@@ -1,0 +1,10 @@
+.health-check-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.health-check-container .content {
+  display: block;
+  width: max-content;
+  padding: 1rem;
+}

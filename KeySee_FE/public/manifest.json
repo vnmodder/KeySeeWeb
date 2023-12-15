@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/images/KEYSEE_LOGIN_122x40.png",
+      "type": "image/png",
+      "sizes": "122x40"
+    },
+    {
+      "src": "./assets/images/KEYSEE_LOGIN.png",
+      "type": "image/png",
+      "sizes": "479x157"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

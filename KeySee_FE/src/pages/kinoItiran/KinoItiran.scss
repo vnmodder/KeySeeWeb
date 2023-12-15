@@ -1,0 +1,30 @@
+.KinoItiranContainer {
+  background-color: azure;
+  border-top: 1px solid grey;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 85.5vh;
+    .KinoItiranButton {
+      display: flex;
+      align-items: center;
+      border: 1px solid darkgrey !important;
+      width: 100%;
+    }
+    .Square {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 0.7rem;
+    }
+    .KinoItiranListItem {
+      span {
+        font-size: 1.1rem !important;
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+}

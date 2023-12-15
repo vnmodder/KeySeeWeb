@@ -1,0 +1,46 @@
+.MuiTable-root {
+  // Header cell.
+  .MuiTableHead-root {
+    opacity: 1;
+    .MuiTableCell-head {
+      padding: 0.2rem 0.2rem;
+      border: 1px solid #a4a4a4 !important;
+      background-color: #eaeaea;
+      .MuiDivider-root {
+        z-index: 3;
+        border: none !important;
+      }
+    }
+  }
+  // Body cells
+  .MuiTableBody-root {
+    .MuiTableRow-root {
+      .MuiTableCell-root {
+        border: 1px solid #cecece;
+        padding: 0 0.2rem;
+      }
+    }
+  }
+}
+// Edit pagination item style.
+.MuiToolbar-root {
+  min-height: 2.2rem !important;
+  .MuiTablePagination-root {
+    font-size: 0.6rem !important;
+    .MuiToolbar-root {
+      min-height: fit-content !important;
+    }
+    .MuiTablePagination-actions {
+      margin: 0 1rem !important;
+      gap: 0 0.5rem;
+      display: flex;
+      button {
+        padding: 0 !important;
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}

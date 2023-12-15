@@ -1,0 +1,18 @@
+.version-dialog {
+    padding: 0.5rem 2rem;
+
+    .display-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .margin-top-1rem {
+        margin-top: 1rem;
+    }
+
+    .logo {
+
+        justify-self: left;
+    }
+}
